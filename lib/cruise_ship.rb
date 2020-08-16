@@ -7,6 +7,7 @@
 # }
 
 def select_winner(passengers)
+<<<<<<< HEAD
 
 winner = ""
 passengers.each do |suite, name|
@@ -17,3 +18,13 @@ end
  
 winner
 end
+=======
+  # add the code snippet here!
+  winner= ""'''''''''''''''''''''''''''
+  passengers.each do |suite, name|
+    if suite==:suite_a && name.start_with? ("A")
+      winner = name
+end
+end
+winner
+>>>>>>> 62fc9d2f55eedc98be017cc69239063d31ee1164
